@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
     int sum_of_money = 1500;
     int sum_of_apples = buyApple(&sum_of_money, 5);
-    printf("sum of money:%d, sum of apple: %d\n", &sum_of_money, sum_of_apples);
+    printf("sum of money:%d\n sum of apple: %d\n", &sum_of_money, sum_of_apples);
     return 0;
 }
 
