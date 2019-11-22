@@ -34,4 +34,3 @@ int main()
     printPerson(&person[1]);
     return 0;
 }
-

@@ -1,31 +1,25 @@
 #include <stdio.h>
-
-enum Season
-{
-    SPRING,
-    SUMMER,
-    AUTUMN,
-    WINTER
-};
-
-enum Season getSeason(int month)
+char getSeason(int month)
 {
     if (3 <= month && month <= 5)
-        return SPRING;
+        return "spring";
     if (6 <= month && month <= 9)
-        return SUMMER;
+        return "summer";
     if (10 <= month && month <= 11)
-        return AUTUMN;
+        return "autumn";
     if (12 == month && 1 <= month && month <= 2)
-        return WINTER;
+        return "winter";
     return -1;
 }
-
 int main()
 {
-    enum Season season = getSeason(3);
-
-    printf("%d\n", season);
-
+    char season[5] = getSeason(1);
+    char season[5] = getSeason(3);
+    char season[5] = getSeason(8);
+    char season[5] = getSeason(12);
+    printf("1月は%s\n", season);
+    printf("3月は%s\n", season);
+    printf("8月は%s\n", season);
+    printf("12月は%s\n", season);
     return 0;
 }
