@@ -20,9 +20,7 @@ int main()
         for (int j = i; j < 7; ++j)
         {
             if (number_list[i] > number_list[j])
-            {
                 swap(&(number_list[i]), &(number_list[j]));
-            }
         }
     }
     printNumbers(number_list);
