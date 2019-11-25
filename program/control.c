@@ -13,13 +13,13 @@ char getSeason(int month)
 }
 int main()
 {
-    char season[5] = getSeason(1);
-    char season[5] = getSeason(3);
-    char season[5] = getSeason(8);
-    char season[5] = getSeason(12);
-    printf("1月は%s\n", season);
-    printf("3月は%s\n", season);
-    printf("8月は%s\n", season);
-    printf("12月は%s\n", season);
+    char season1[5] = getSeason(1);
+    char season2[5] = getSeason(3);
+    char season3[5] = getSeason(8);
+    char season4[5] = getSeason(12);
+    printf("1月は%s\n", season1);
+    printf("3月は%s\n", season2);
+    printf("8月は%s\n", season3);
+    printf("12月は%s\n", season4);
     return 0;
 }

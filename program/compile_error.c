@@ -2,7 +2,7 @@
 
 int buyApple(int *sum_of_money, int max_number_of_apples);
 
-int main(int argc, char const *argv[])
+int main()
 {
     int sum_of_money = 1500;
     int sum_of_apples = buyApple(&sum_of_money, 5);

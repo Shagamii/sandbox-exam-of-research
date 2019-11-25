@@ -1,9 +1,13 @@
 #include <stdio.h>
 #define NAME_LENGTH 255
 char fruit_name[2][10] = {"banana", "apple"};
+<<<<<<< HEAD
 enum Fruit {
     BANANA,
     APPLE };
+=======
+enum Fruit {BANANA,APPLE};
+>>>>>>> 5759e6132276a805d8bb142f7d41b99a21ad186b
 typedef struct {
     char name[NAME_LENGTH];
     enum Fruit fruit;

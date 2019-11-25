@@ -23,6 +23,5 @@ int main()
     for (int i = 0; i < 3; i++) {
         printf("%6s, flag: %d\n", people[i].name, people[i].flag);
     }
-
     return 0;
 }
