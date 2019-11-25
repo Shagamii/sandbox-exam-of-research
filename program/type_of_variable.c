@@ -17,6 +17,7 @@ int main() {
     int height_cm = 186;
     int height_m = height_cm / 100;
     int weight_kg = 80;
+
     int bmi = weight_kg / pow(height_m, 2);
     int proper_weight = pow(height_m, 2) * 22;
 

@@ -14,7 +14,7 @@ int main()
 
     int price_of_chocolate = 500;
     // 購入できるだけチョコレートを購入した.
-    int number_of_chocolate = money / price_of_chocolate;
+    double number_of_chocolate = (double) money / price_of_chocolate;
     money -= price_of_chocolate * number_of_chocolate;
 
     printf("残金: %d\n", money);

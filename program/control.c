@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 char getSeason(int month)
 {
     if (3 <= month && month <= 5)
@@ -11,15 +12,16 @@ char getSeason(int month)
         return "winter";
     return -1;
 }
+
 int main()
 {
     char season1[5] = getSeason(1);
     char season2[5] = getSeason(3);
     char season3[5] = getSeason(8);
-    char season4[5] = getSeason(12);
+    char season4[5] = getSeason(11);
     printf("1月は%s\n", season1);
     printf("3月は%s\n", season2);
     printf("8月は%s\n", season3);
-    printf("12月は%s\n", season4);
+    printf("11月は%s\n", season4);
     return 0;
 }
