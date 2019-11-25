@@ -14,10 +14,6 @@ Person という構造体で表せれているのが、その人の名前と好�
 ## 解説
 
 ```
----before---
-name: taro, fruit: banana
-name: ziro, fruit: apple
----after---
 name: taro, fruit: apple
 name: ziro, fruit: banana
 ```
